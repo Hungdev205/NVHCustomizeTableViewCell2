@@ -36,15 +36,6 @@ class MasterTableViewVC: UITableViewController {
 
    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        let cell: CustomizeTableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! CustomizeTableViewCell
-//
-//        let club: ClubInformation = arrayClub[indexPath.row]
-//        cell.labelNameFootballClub.text  = club.nameFootballClub
-//        cell.labelNameClubStadium.text = club.nameStadiumClub
-//        cell.imageViewFootballClubLogo.image = club.imageLogo
-//        cell.imageViewClubStarRating.image = club.imageStarRating
-        
-        
         let cell: ClubViewCell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ClubViewCell
         
         let club: ClubInformation = arrayClub[indexPath.row]

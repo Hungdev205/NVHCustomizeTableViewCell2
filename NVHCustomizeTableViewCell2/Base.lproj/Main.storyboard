@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Customize Table Cell-->
+        <!-- PREMIER LEAGUE-->
         <scene sceneID="af4-HO-lKi">
             <objects>
                 <tableViewController id="6iY-5w-UR8" customClass="MasterTableViewVC" customModule="NVHCustomizeTableViewCell2" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,7 +69,10 @@
                             <outlet property="delegate" destination="6iY-5w-UR8" id="Y85-EG-hEw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Customize Table Cell" id="Uo2-zI-3Ja"/>
+                    <navigationItem key="navigationItem" id="Uo2-zI-3Ja">
+                        <string key="title">
+PREMIER LEAGUE</string>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8N-QZ-7kR" userLabel="First Responder" sceneMemberID="firstResponder"/>
